@@ -30,7 +30,7 @@ server.route({
             passThrough: true,
             xforward: true,
             mapUri: function(req, cb) {
-                cb(null, 'http://proxy-backend.krancour.deis.ninja/foo')
+                cb(null, 'https://proxy-backend.krancour.deis.ninja/foo')
             }
         }
     }
