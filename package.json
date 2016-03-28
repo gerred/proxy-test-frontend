@@ -1,0 +1,15 @@
+{
+  "name": "proxy-test-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "h2o2": "^5.1.0",
+    "hapi": "^13.2.2"
+  }
+}
