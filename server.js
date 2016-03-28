@@ -28,7 +28,6 @@ server.route({
         proxy: {
             redirects: 5,
             passThrough: true,
-            xforward: true,
             mapUri: function(req, cb) {
                 cb(null, 'https://proxy-backend.krancour.deis.ninja/foo')
             }
